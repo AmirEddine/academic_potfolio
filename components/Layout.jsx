@@ -3,9 +3,9 @@ import BarNavigation from "./BarNavigation";
 import Footer from "@/components/Footer";
 
 
-export default function Layout({setPage, children}) {
+export default function Layout({ children}) {
     return <>
-        <BarNavigation setPage={setPage} />
+        <BarNavigation  />
         <div className="relative ">
             <Animation_test />
             {children}
